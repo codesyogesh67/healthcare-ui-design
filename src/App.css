@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Mulish");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  /*========== Colors ==========*/
+  --text-color: #acaab2;
+  --title-color: black;
+  --button-text-color: #458ff6;
+
+  /*========== Font and typography ==========*/
+
+  --normal-font-size: 1.3rem;
+  --large-font-size: 2.5rem;
+  --mobile-large-font-size: 2rem;
+  --smaller-font-size: 0.75rem;
+  --small-font-size: 0.9rem;
+  --font: Mulish;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }
